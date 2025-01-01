@@ -1,0 +1,146 @@
+====================================================================================
+|  #  |    SYMBOL    |      TYPE      |                VALUE                | LINE |
+|=====|==============|================|=====================================|======|
+|  1  | STARTPROGRAM |        Program |                        STARTPROGRAM |    2 |
+|  2  |     VARIABLE |           Vars |                            VARIABLE |    3 |
+|  3  |        INT_4 |        VarType |                               INT_4 |    3 |
+|  4  |              |     Identifier |                               _aaaa |    3 |
+|  5  |            , |          Comma |                                   , |    3 |
+|  6  |              |     Identifier |                               _bbbb |    3 |
+|  7  |            , |          Comma |                                   , |    3 |
+|  8  |              |     Identifier |                               _xxxx |    3 |
+|  9  |            , |          Comma |                                   , |    3 |
+|  10 |              |     Identifier |                               _yyyy |    3 |
+|  11 |            ; |      Semicolon |                                   ; |    3 |
+|  12 |    STARTBLOK |          Start |                           STARTBLOK |    4 |
+|  13 |        WRITE |          Write |                               WRITE |    5 |
+|  14 |            ( |        LBraket |                                   ( |    5 |
+|  15 |              |         String |                           Input A:  |    5 |
+|  16 |            ) |        RBraket |                                   ) |    5 |
+|  17 |            ; |      Semicolon |                                   ; |    5 |
+|  18 |         READ |           Read |                                READ |    6 |
+|  19 |            ( |        LBraket |                                   ( |    6 |
+|  20 |              |     Identifier |                               _aaaa |    6 |
+|  21 |            ) |        RBraket |                                   ) |    6 |
+|  22 |            ; |      Semicolon |                                   ; |    6 |
+|  23 |        WRITE |          Write |                               WRITE |    7 |
+|  24 |            ( |        LBraket |                                   ( |    7 |
+|  25 |              |         String |                           Input B:  |    7 |
+|  26 |            ) |        RBraket |                                   ) |    7 |
+|  27 |            ; |      Semicolon |                                   ; |    7 |
+|  28 |         READ |           Read |                                READ |    8 |
+|  29 |            ( |        LBraket |                                   ( |    8 |
+|  30 |              |     Identifier |                               _bbbb |    8 |
+|  31 |            ) |        RBraket |                                   ) |    8 |
+|  32 |            ; |      Semicolon |                                   ; |    8 |
+|  33 |        WRITE |          Write |                               WRITE |    9 |
+|  34 |            ( |        LBraket |                                   ( |    9 |
+|  35 |              |         String |                             A + B:  |    9 |
+|  36 |            ) |        RBraket |                                   ) |    9 |
+|  37 |            ; |      Semicolon |                                   ; |    9 |
+|  38 |        WRITE |          Write |                               WRITE |   10 |
+|  39 |            ( |        LBraket |                                   ( |   10 |
+|  40 |              |     Identifier |                               _aaaa |   10 |
+|  41 |          ADD |       Addition |                                 ADD |   10 |
+|  42 |              |     Identifier |                               _bbbb |   10 |
+|  43 |            ) |        RBraket |                                   ) |   10 |
+|  44 |            ; |      Semicolon |                                   ; |   10 |
+|  45 |        WRITE |          Write |                               WRITE |   11 |
+|  46 |            ( |        LBraket |                                   ( |   11 |
+|  47 |              |         String |                           \nA - B:  |   11 |
+|  48 |            ) |        RBraket |                                   ) |   11 |
+|  49 |            ; |      Semicolon |                                   ; |   11 |
+|  50 |        WRITE |          Write |                               WRITE |   12 |
+|  51 |            ( |        LBraket |                                   ( |   12 |
+|  52 |              |     Identifier |                               _aaaa |   12 |
+|  53 |          SUB |    Subtraction |                                 SUB |   12 |
+|  54 |              |     Identifier |                               _bbbb |   12 |
+|  55 |            ) |        RBraket |                                   ) |   12 |
+|  56 |            ; |      Semicolon |                                   ; |   12 |
+|  57 |        WRITE |          Write |                               WRITE |   13 |
+|  58 |            ( |        LBraket |                                   ( |   13 |
+|  59 |              |         String |                           \nA * B:  |   13 |
+|  60 |            ) |        RBraket |                                   ) |   13 |
+|  61 |            ; |      Semicolon |                                   ; |   13 |
+|  62 |        WRITE |          Write |                               WRITE |   14 |
+|  63 |            ( |        LBraket |                                   ( |   14 |
+|  64 |              |     Identifier |                               _aaaa |   14 |
+|  65 |          MUL | Multiplication |                                 MUL |   14 |
+|  66 |              |     Identifier |                               _bbbb |   14 |
+|  67 |            ) |        RBraket |                                   ) |   14 |
+|  68 |            ; |      Semicolon |                                   ; |   14 |
+|  69 |        WRITE |          Write |                               WRITE |   15 |
+|  70 |            ( |        LBraket |                                   ( |   15 |
+|  71 |              |         String |                           \nA / B:  |   15 |
+|  72 |            ) |        RBraket |                                   ) |   15 |
+|  73 |            ; |      Semicolon |                                   ; |   15 |
+|  74 |        WRITE |          Write |                               WRITE |   16 |
+|  75 |            ( |        LBraket |                                   ( |   16 |
+|  76 |              |     Identifier |                               _aaaa |   16 |
+|  77 |          DIV |       Division |                                 DIV |   16 |
+|  78 |              |     Identifier |                               _bbbb |   16 |
+|  79 |            ) |        RBraket |                                   ) |   16 |
+|  80 |            ; |      Semicolon |                                   ; |   16 |
+|  81 |        WRITE |          Write |                               WRITE |   17 |
+|  82 |            ( |        LBraket |                                   ( |   17 |
+|  83 |              |         String |                           \nA % B:  |   17 |
+|  84 |            ) |        RBraket |                                   ) |   17 |
+|  85 |            ; |      Semicolon |                                   ; |   17 |
+|  86 |        WRITE |          Write |                               WRITE |   18 |
+|  87 |            ( |        LBraket |                                   ( |   18 |
+|  88 |              |     Identifier |                               _aaaa |   18 |
+|  89 |          MOD |            Mod |                                 MOD |   18 |
+|  90 |              |     Identifier |                               _bbbb |   18 |
+|  91 |            ) |        RBraket |                                   ) |   18 |
+|  92 |            ; |      Semicolon |                                   ; |   18 |
+|  93 |              |     Identifier |                               _xxxx |   19 |
+|  94 |           <- |     Assignment |                                  <- |   19 |
+|  95 |            ( |        LBraket |                                   ( |   19 |
+|  96 |              |     Identifier |                               _aaaa |   19 |
+|  97 |          SUB |    Subtraction |                                 SUB |   19 |
+|  98 |              |     Identifier |                               _bbbb |   19 |
+|  99 |            ) |        RBraket |                                   ) |   19 |
+| 100 |          MUL | Multiplication |                                 MUL |   19 |
+| 101 |              |         Number |                                  10 |   19 |
+| 102 |          ADD |       Addition |                                 ADD |   19 |
+| 103 |            ( |        LBraket |                                   ( |   19 |
+| 104 |              |     Identifier |                               _aaaa |   19 |
+| 105 |          ADD |       Addition |                                 ADD |   19 |
+| 106 |              |     Identifier |                               _bbbb |   19 |
+| 107 |            ) |        RBraket |                                   ) |   19 |
+| 108 |          DIV |       Division |                                 DIV |   19 |
+| 109 |              |         Number |                                  10 |   19 |
+| 110 |            ; |      Semicolon |                                   ; |   19 |
+| 111 |              |     Identifier |                               _yyyy |   20 |
+| 112 |           <- |     Assignment |                                  <- |   20 |
+| 113 |              |     Identifier |                               _xxxx |   20 |
+| 114 |          ADD |       Addition |                                 ADD |   20 |
+| 115 |            ( |        LBraket |                                   ( |   20 |
+| 116 |              |     Identifier |                               _xxxx |   20 |
+| 117 |          MOD |            Mod |                                 MOD |   20 |
+| 118 |              |         Number |                                  10 |   20 |
+| 119 |            ) |        RBraket |                                   ) |   20 |
+| 120 |            ; |      Semicolon |                                   ; |   20 |
+| 121 |        WRITE |          Write |                               WRITE |   21 |
+| 122 |            ( |        LBraket |                                   ( |   21 |
+| 123 |              |         String | \nX = (A - B) * 10 + (A + B) / 10\n |   21 |
+| 124 |            ) |        RBraket |                                   ) |   21 |
+| 125 |            ; |      Semicolon |                                   ; |   21 |
+| 126 |        WRITE |          Write |                               WRITE |   22 |
+| 127 |            ( |        LBraket |                                   ( |   22 |
+| 128 |              |     Identifier |                               _xxxx |   22 |
+| 129 |            ) |        RBraket |                                   ) |   22 |
+| 130 |            ; |      Semicolon |                                   ; |   22 |
+| 131 |        WRITE |          Write |                               WRITE |   23 |
+| 132 |            ( |        LBraket |                                   ( |   23 |
+| 133 |              |         String |              \nY = X + (X MOD 10)\n |   23 |
+| 134 |            ) |        RBraket |                                   ) |   23 |
+| 135 |            ; |      Semicolon |                                   ; |   23 |
+| 136 |        WRITE |          Write |                               WRITE |   24 |
+| 137 |            ( |        LBraket |                                   ( |   24 |
+| 138 |              |     Identifier |                               _yyyy |   24 |
+| 139 |            ) |        RBraket |                                   ) |   24 |
+| 140 |            ; |      Semicolon |                                   ; |   24 |
+| 141 |      ENDBLOK |            End |                             ENDBLOK |   25 |
+| 142 |              |      EndOfFile |                                     |   -1 |
+====================================================================================
