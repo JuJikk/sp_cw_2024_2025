@@ -1,0 +1,20 @@
+STARTPROGRAM
+VARIABLE INT_4 _aaa,_bbb,_xxx,_yyy;
+STARTBLOCK
+
+READ _aaa
+READ _bbb
+
+WRITE _aaa ADD _bbb
+WRITE _aaa SUB _bbb
+WRITE _aaa MUL _bbb
+WRITE _aaa DIV _bbb
+WRITE _aaa MOD _bbb
+
+_xxx <- (_aaa SUB _bbb) MUL 10 ADD (_aaa ADD _bbb) DIV 10
+_yyy <- _xxx ADD (_xxx MOD 10)
+
+WRITE _xxx
+WRITE _yyy
+
+ENDBLOCK
