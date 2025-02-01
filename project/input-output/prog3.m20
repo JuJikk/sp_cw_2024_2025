@@ -1,0 +1,18 @@
+STARTPROGRAM
+VARIABLE INT_4 _aaa,_bbb,_xxx,_iii,_jjj;
+STARTBLOCK
+
+READ _aaa
+READ _bbb
+
+FOR _xxx <- _aaa TO _bbb DO
+    WRITE _xxx MUL _xxx
+
+_xxx <- 0
+FOR _iii <- 1 TO _aaa DO
+    FOR _jjj <- 1 TO _bbb DO 
+        _xxx <- _xxx ADD 1 
+
+WRITE _xxx
+
+ENDBLOCK

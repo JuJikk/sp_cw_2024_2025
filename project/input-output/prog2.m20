@@ -1,0 +1,29 @@
+STARTPROGRAM
+VARIABLE INT_4 _aaa,_bbb,_ccc;
+STARTBLOCK
+READ _aaa
+READ _bbb
+READ _ccc
+IF (_aaa LT _bbb)
+    IF(_aaa LT _ccc)
+        WRITE _aaa            
+    ELSE
+        WRITE _ccc        
+ELSE
+    IF (_bbb LT _ccc)
+            WRITE _bbb
+        ELSE
+            WRITE _ccc
+IF ((_aaa EQ _bbb) & (_aaa EQ _ccc) & (_bbb EQ _ccc))
+    WRITE 1
+ELSE
+    WRITE 0
+IF ((_aaa GT 0) | (_bbb GT 0) | (_ccc GT 0))
+    WRITE -1
+ELSE
+    WRITE 0
+IF (!(_aaa GT (_bbb ADD _ccc)))
+    WRITE 10
+ELSE
+    WRITE 0
+ENDBLOCK
