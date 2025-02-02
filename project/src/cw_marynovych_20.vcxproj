@@ -130,19 +130,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\cw-sonich-orest-26\Ast.cpp" />
-    <ClCompile Include="..\..\cw-sonich-orest-26\Codegen.cpp" />
-    <ClCompile Include="..\..\cw-sonich-orest-26\header.cpp" />
-    <ClCompile Include="..\..\cw-sonich-orest-26\LexicAnalyzer.cpp" />
-    <ClCompile Include="..\..\cw-sonich-orest-26\main.cpp" />
-    <ClCompile Include="..\..\cw-sonich-orest-26\Parser.cpp" />
+    <ClCompile Include="..\..\cw-marynovych-marko-20\Ast.cpp" />
+    <ClCompile Include="..\..\cw-marynovych-marko-20\Codegen.cpp" />
+    <ClCompile Include="..\..\cw-marynovych-marko-20\header.cpp" />
+    <ClCompile Include="..\..\cw-marynovych-marko-20\LexicAnalyzer.cpp" />
+    <ClCompile Include="..\..\cw-marynovych-marko-20\main.cpp" />
+    <ClCompile Include="..\..\cw-marynovych-marko-20\Parser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\cw-sonich-orest-26\Ast.h" />
-    <ClInclude Include="..\..\cw-sonich-orest-26\Codegen.h" />
-    <ClInclude Include="..\..\cw-sonich-orest-26\header.h" />
-    <ClInclude Include="..\..\cw-sonich-orest-26\LexicAnalyzer.h" />
-    <ClInclude Include="..\..\cw-sonich-orest-26\Parser.h" />
+    <ClInclude Include="..\..\cw-marynovych-marko-20\Codegen.h" />
+    <ClInclude Include="..\..\cw-marynovych-marko-20\header.h" />
+    <ClInclude Include="..\..\cw-marynovych-marko-20\LexicAnalyzer.h" />
+    <ClInclude Include="..\..\cw-marynovych-marko-20\Parser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
