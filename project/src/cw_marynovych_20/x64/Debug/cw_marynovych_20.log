@@ -1,3 +1,0 @@
-﻿  LexicAnalyzer.cpp
-C:\Users\marko\Desktop\cw-sonich-orest-26\LexicAnalyzer.cpp(87,39): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  cw_marynovych_20.vcxproj -> C:\Users\marko\Desktop\cw_marynovych_marko_20\cw_marynovych_20\x64\Debug\main.cpp.exe
