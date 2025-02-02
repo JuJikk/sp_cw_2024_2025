@@ -15,36 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\cw-sonich-orest-26\Codegen.cpp">
+    <ClCompile Include="..\..\cw-marynovych-marko-20\Codegen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cw-sonich-orest-26\Ast.cpp">
+    <ClCompile Include="..\..\cw-marynovych-marko-20\Ast.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cw-sonich-orest-26\LexicAnalyzer.cpp">
+    <ClCompile Include="..\..\cw-marynovych-marko-20\LexicAnalyzer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cw-sonich-orest-26\Parser.cpp">
+    <ClCompile Include="..\..\cw-marynovych-marko-20\Parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cw-sonich-orest-26\main.cpp">
+    <ClCompile Include="..\..\cw-marynovych-marko-20\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cw-sonich-orest-26\header.cpp">
+    <ClCompile Include="..\..\cw-marynovych-marko-20\header.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\cw-sonich-orest-26\LexicAnalyzer.h">
+    <ClInclude Include="..\..\cw-marynovych-marko-20\LexicAnalyzer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\cw-sonich-orest-26\Ast.h">
+    <ClInclude Include="..\..\cw-marynovych-marko-20\Ast.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\cw-sonich-orest-26\Codegen.h">
+    <ClInclude Include="..\..\cw-marynovych-marko-20\Codegen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\cw-sonich-orest-26\Parser.h">
+    <ClInclude Include="..\..\cw-marynovych-marko-20\Parser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\cw-sonich-orest-26\header.h">
